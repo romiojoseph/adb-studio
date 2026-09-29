@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ACTIVITY_RECOGNITION",
+    "description": "Used for permissions that are associated with activity recognition."
+  },
+  {
+    "name": "CALENDAR",
+    "description": "Used for runtime permissions related to user's calendar."
+  },
+  {
+    "name": "CALL_LOG",
+    "description": "Used for permissions that are associated telephony features."
+  },
+  {
+    "name": "CAMERA",
+    "description": "Used for permissions that are associated with accessing camera or capturing images/video from the device."
+  },
+  {
+    "name": "CONTACTS",
+    "description": "Used for runtime permissions related to contacts and profiles on this device."
+  },
+  {
+    "name": "LOCATION",
+    "description": "Used for permissions that allow accessing the device location."
+  },
+  {
+    "name": "MICROPHONE",
+    "description": "Used for permissions that are associated with accessing microphone audio from the device."
+  },
+  {
+    "name": "NEARBY_DEVICES",
+    "description": "Required to be able to discover and connect to nearby Bluetooth devices."
+  },
+  {
+    "name": "NOTIFICATIONS",
+    "description": "Used for permissions that are associated with posting notifications"
+  },
+  {
+    "name": "PHONE",
+    "description": "Used for permissions that are associated telephony features."
+  },
+  {
+    "name": "READ_MEDIA_AURAL",
+    "description": "Required to be able to read audio files from shared storage."
+  },
+  {
+    "name": "READ_MEDIA_VISUAL",
+    "description": "Required to be able to read image and video files from shared storage."
+  },
+  {
+    "name": "SENSORS",
+    "description": "Used for permissions that are associated with accessing body or environmental sensors."
+  },
+  {
+    "name": "SMS",
+    "description": "Used for runtime permissions related to user's SMS messages."
+  },
+  {
+    "name": "STORAGE",
+    "description": "Used for runtime permissions related to the shared external storage."
+  }
+]

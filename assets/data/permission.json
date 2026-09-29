@@ -1,0 +1,1458 @@
+[
+  {
+    "name": "ACCEPT_HANDOVER",
+    "description": "Allows a calling app to continue a call which was started in another app."
+  },
+  {
+    "name": "ACCESS_BACKGROUND_LOCATION",
+    "description": "Allows an app to access location in the background."
+  },
+  {
+    "name": "ACCESS_BIOMETRIC_SENSOR_STRENGTHS",
+    "description": "Allows an application to retrieve the sensor security strengths of the biometric sensors."
+  },
+  {
+    "name": "ACCESS_BLOBS_ACROSS_USERS",
+    "description": "Allows an application to access data blobs across users."
+  },
+  {
+    "name": "ACCESS_CHECKIN_PROPERTIES",
+    "description": "Allows read/write access to the \"properties\" table in the checkin database, to change values that get uploaded."
+  },
+  {
+    "name": "ACCESS_COARSE_LOCATION",
+    "description": "Allows an app to access approximate location."
+  },
+  {
+    "name": "ACCESS_FINE_LOCATION",
+    "description": "Allows an app to access precise location."
+  },
+  {
+    "name": "ACCESS_HID",
+    "description": "Required by apps wanting to query for and/or access Human Interface Device (HID) nodes using <code>HidManager</code>."
+  },
+  {
+    "name": "ACCESS_HIDDEN_PROFILES",
+    "description": "Allows applications to access profiles with <code>android.content.pm.UserProperties#PROFILE_API_VISIBILITY_HIDDEN</code> user property, e.g."
+  },
+  {
+    "name": "ACCESS_LAUNCHER_DATA",
+    "description": "This permission protects a content provider within home/launcher applications, enabling management of home screen metadata such as shortcut placement, launch intents, and labels."
+  },
+  {
+    "name": "ACCESS_LOCAL_NETWORK",
+    "description": "Required to be able to advertise and connect to local network devices."
+  },
+  {
+    "name": "ACCESS_LOCATION_EXTRA_COMMANDS",
+    "description": "Allows an application to access extra location provider commands."
+  },
+  {
+    "name": "ACCESS_MEDIA_LOCATION",
+    "description": "Allows an application to access any geographic locations persisted in the user's shared collection."
+  },
+  {
+    "name": "ACCESS_NETWORK_STATE",
+    "description": "Allows applications to access information about networks."
+  },
+  {
+    "name": "ACCESS_NOTIFICATION_POLICY",
+    "description": "Marker permission for applications that wish to access notification policy."
+  },
+  {
+    "name": "ACCESS_WIFI_STATE",
+    "description": "Allows applications to access information about Wi-Fi networks."
+  },
+  {
+    "name": "ACCOUNT_MANAGER",
+    "description": "Allows applications to call into AccountAuthenticators."
+  },
+  {
+    "name": "ACTIVITY_RECOGNITION",
+    "description": "Allows an application to recognize physical activity."
+  },
+  {
+    "name": "ADD_VOICEMAIL",
+    "description": "Allows an application to add voicemails into the system."
+  },
+  {
+    "name": "ANSWER_PHONE_CALLS",
+    "description": "Allows the app to answer an incoming phone call."
+  },
+  {
+    "name": "APPLY_PICTURE_PROFILE",
+    "description": "Allows an app to apply a <code>ERROR(/MediaQualityManager.PictureProfile)</code> to a layer via <code>ERROR(/MediaCodec.PARAMETER_KEY_PICTURE_PROFILE)</code> and, additionally, system apps via <code>ERROR(/SurfaceControl.Transaction#setPictureProfileHandle)</code>."
+  },
+  {
+    "name": "BATTERY_STATS",
+    "description": "Allows an application to collect battery statistics"
+  },
+  {
+    "name": "BIND_ACCESSIBILITY_SERVICE",
+    "description": "Must be required by an <code>AccessibilityService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_ALTERNATIVE_MESSAGE_TRANSPORT_SERVICE",
+    "description": "Permission needed to ensure that only the system process can bind with the <code>AlternativeMessageTransportService</code>."
+  },
+  {
+    "name": "BIND_APPWIDGET",
+    "description": "Allows an application to tell the AppWidget service which application can access AppWidget's data."
+  },
+  {
+    "name": "BIND_APP_FUNCTION_SERVICE",
+    "description": "Must be required by an <code>AppFunctionService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_AUTOFILL_SERVICE",
+    "description": "Must be required by a <code>AutofillService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_CALL_REDIRECTION_SERVICE",
+    "description": "Must be required by a <code>CallRedirectionService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_CARRIER_MESSAGING_CLIENT_SERVICE",
+    "description": "A subclass of <code>CarrierMessagingClientService</code> must be protected with this permission."
+  },
+  {
+    "name": "BIND_CARRIER_MESSAGING_SERVICE",
+    "description": "<em>This constant was deprecated in API level 23. Use <code>BIND_CARRIER_SERVICES</code> instead</em>"
+  },
+  {
+    "name": "BIND_CARRIER_SERVICES",
+    "description": "The system process that is allowed to bind to services in carrier apps will have this permission."
+  },
+  {
+    "name": "BIND_CHOOSER_TARGET_SERVICE",
+    "description": "<em>This constant was deprecated in API level 30. For publishing direct share targets, please follow the instructions in https://developer.android.com/training/sharing/receive.html#providing-direct-share-targets instead.</em>"
+  },
+  {
+    "name": "BIND_COMPANION_DEVICE_SERVICE",
+    "description": "Must be required by any <code>CompanionDeviceService</code> s to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_CONDITION_PROVIDER_SERVICE",
+    "description": "Must be required by a <code>ConditionProviderService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_CONTENT_RESTRICTION_SERVICE",
+    "description": "Permission required to bind content restriction service"
+  },
+  {
+    "name": "BIND_CONTENT_SAFETY_SERVICE",
+    "description": "Ensures only the platform can bind to the content safety service."
+  },
+  {
+    "name": "BIND_CONTROLS",
+    "description": "Allows SystemUI to request third party controls."
+  },
+  {
+    "name": "BIND_CREDENTIAL_PROVIDER_SERVICE",
+    "description": "Must be required by a CredentialProviderService to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_DATA_MIGRATION_FOR_PRIVATECOMPUTE",
+    "description": "Allows the system to bind to an application's data migration service for Private Compute."
+  },
+  {
+    "name": "BIND_DEVICE_ADMIN",
+    "description": "Must be required by device administration receiver, to ensure that only the system can interact with it."
+  },
+  {
+    "name": "BIND_DREAM_SERVICE",
+    "description": "Must be required by an <code>DreamService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_INCALL_SERVICE",
+    "description": "Must be required by a <code>InCallService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_INPUT_METHOD",
+    "description": "Must be required by an <code>InputMethodService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_MIDI_DEVICE_SERVICE",
+    "description": "Must be required by an <code>MidiDeviceService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_NFC_SERVICE",
+    "description": "Must be required by a <code>HostApduService</code> or <code>OffHostApduService</code> to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_NOTIFICATION_LISTENER_SERVICE",
+    "description": "Must be required by an <code>NotificationListenerService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_PCC_EGRESS_SERVICE",
+    "description": "Allows a system application to bind to the Private Compute Core egress service."
+  },
+  {
+    "name": "BIND_PRINT_SERVICE",
+    "description": "Must be required by a <code>PrintService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_QUICK_ACCESS_WALLET_SERVICE",
+    "description": "Must be required by a <code>QuickAccessWalletService</code> to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_QUICK_SETTINGS_TILE",
+    "description": "Allows an application to bind to third party quick settings tiles."
+  },
+  {
+    "name": "BIND_REMOTEVIEWS",
+    "description": "Must be required by a <code>RemoteViewsService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_SCREENING_SERVICE",
+    "description": "Must be required by a <code>CallScreeningService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_TELECOM_CONNECTION_SERVICE",
+    "description": "Must be required by a <code>ConnectionService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_TEXT_SERVICE",
+    "description": "Must be required by a TextService (e.g. SpellCheckerService) to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_TV_AD_SERVICE",
+    "description": "Must be required by a android.media.tv.ad.TvAdService to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_TV_INPUT",
+    "description": "Must be required by a <code>TvInputService</code> to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_TV_INTERACTIVE_APP",
+    "description": "Must be required by a <code>TvInteractiveAppService</code> to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_VISUAL_VOICEMAIL_SERVICE",
+    "description": "Must be required by a link <code>VisualVoicemailService</code> to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_VOICE_INTERACTION",
+    "description": "Must be required by a <code>VoiceInteractionService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_VPN_SERVICE",
+    "description": "Must be required by a <code>VpnService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_VR_LISTENER_SERVICE",
+    "description": "Must be required by an <code>VrListenerService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BIND_WALLPAPER",
+    "description": "Must be required by a <code>WallpaperService</code>, to ensure that only the system can bind to it."
+  },
+  {
+    "name": "BLUETOOTH",
+    "description": "Allows applications to connect to paired bluetooth devices."
+  },
+  {
+    "name": "BLUETOOTH_ADMIN",
+    "description": "Allows applications to discover and pair bluetooth devices."
+  },
+  {
+    "name": "BLUETOOTH_ADVERTISE",
+    "description": "Required to be able to advertise to nearby Bluetooth devices."
+  },
+  {
+    "name": "BLUETOOTH_CONNECT",
+    "description": "Required to be able to connect to paired Bluetooth devices."
+  },
+  {
+    "name": "BLUETOOTH_PRIVILEGED",
+    "description": "Allows applications to pair bluetooth devices without user interaction, and to allow or disallow phonebook access or message access."
+  },
+  {
+    "name": "BLUETOOTH_SCAN",
+    "description": "Required to be able to discover and pair nearby Bluetooth devices."
+  },
+  {
+    "name": "BODY_SENSORS",
+    "description": "Allows an application to access data from sensors that the user uses to measure what is happening inside their body, such as heart rate."
+  },
+  {
+    "name": "BODY_SENSORS_BACKGROUND",
+    "description": "Allows an application to access data from sensors that the user uses to measure what is happening inside their body, such as heart rate."
+  },
+  {
+    "name": "BROADCAST_PACKAGE_REMOVED",
+    "description": "Allows an application to broadcast a notification that an application package has been removed."
+  },
+  {
+    "name": "BROADCAST_SMS",
+    "description": "Allows an application to broadcast an SMS receipt notification."
+  },
+  {
+    "name": "BROADCAST_STICKY",
+    "description": "Allows an application to broadcast sticky intents."
+  },
+  {
+    "name": "BROADCAST_WAP_PUSH",
+    "description": "Allows an application to broadcast a WAP PUSH receipt notification."
+  },
+  {
+    "name": "CALL_COMPANION_APP",
+    "description": "Allows an app which implements the <code>InCallService</code> API to be eligible to be enabled as a calling companion app."
+  },
+  {
+    "name": "CALL_PHONE",
+    "description": "Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call."
+  },
+  {
+    "name": "CALL_PRIVILEGED",
+    "description": "Allows an application to call any phone number, including emergency numbers, without going through the Dialer user interface for the user to confirm the call being placed."
+  },
+  {
+    "name": "CAMERA",
+    "description": "Required to be able to access the camera device."
+  },
+  {
+    "name": "CAPTURE_AUDIO_OUTPUT",
+    "description": "Allows an application to capture audio output."
+  },
+  {
+    "name": "CAPTURE_KEYBOARD",
+    "description": "Allows the currently focused application to be able to consume keys before Android system get chance to process system keys and shortcuts."
+  },
+  {
+    "name": "CHANGE_COMPONENT_ENABLED_STATE",
+    "description": "Allows an application to change whether an application component (other than its own) is enabled or not."
+  },
+  {
+    "name": "CHANGE_CONFIGURATION",
+    "description": "Allows an application to modify the current configuration, such as locale."
+  },
+  {
+    "name": "CHANGE_NETWORK_STATE",
+    "description": "Allows applications to change network connectivity state."
+  },
+  {
+    "name": "CHANGE_WIFI_MULTICAST_STATE",
+    "description": "Allows applications to enter Wi-Fi Multicast mode."
+  },
+  {
+    "name": "CHANGE_WIFI_STATE",
+    "description": "Allows applications to change Wi-Fi connectivity state."
+  },
+  {
+    "name": "CLEAR_APP_CACHE",
+    "description": "Allows an application to clear the caches of all installed applications on the device."
+  },
+  {
+    "name": "CONFIGURE_WIFI_DISPLAY",
+    "description": "Allows an application to configure and connect to Wifi displays"
+  },
+  {
+    "name": "CONTROL_LOCATION_UPDATES",
+    "description": "Allows enabling/disabling location update notifications from the radio."
+  },
+  {
+    "name": "CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+    "description": "Allows a browser to invoke the set of query apis to get metadata about credential candidates prepared during the CredentialManager.prepareGetCredential API."
+  },
+  {
+    "name": "CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",
+    "description": "Allows specifying candidate credential providers to be queried in Credential Manager get flows, or to be preferred as a default in the Credential Manager create flows."
+  },
+  {
+    "name": "CREDENTIAL_MANAGER_SET_ORIGIN",
+    "description": "Allows a browser to invoke credential manager APIs on behalf of another RP."
+  },
+  {
+    "name": "DELETE_CACHE_FILES",
+    "description": "Old permission for deleting an app's cache files, no longer used, but signals for us to quietly ignore calls instead of throwing an exception."
+  },
+  {
+    "name": "DELETE_PACKAGES",
+    "description": "Allows an application to delete packages."
+  },
+  {
+    "name": "DELIVER_COMPANION_MESSAGES",
+    "description": "Allows an application to deliver companion messages to system"
+  },
+  {
+    "name": "DETECT_SCREEN_CAPTURE",
+    "description": "Allows an application to get notified when a screen capture of its windows is attempted."
+  },
+  {
+    "name": "DETECT_SCREEN_RECORDING",
+    "description": "Allows an application to get notified when it is being recorded."
+  },
+  {
+    "name": "DIAGNOSTIC",
+    "description": "Allows applications to RW to diagnostic resources."
+  },
+  {
+    "name": "DISABLE_KEYGUARD",
+    "description": "Allows applications to disable the keyguard if it is not secure."
+  },
+  {
+    "name": "DUMP",
+    "description": "Allows an application to retrieve state dump information from system services."
+  },
+  {
+    "name": "ENFORCE_UPDATE_OWNERSHIP",
+    "description": "Allows an application to indicate via <code>PackageInstaller.SessionParams.setRequestUpdateOwnership(boolean)</code> that it has the intention of becoming the update owner."
+  },
+  {
+    "name": "EXECUTE_APP_ACTION",
+    "description": "Allows an assistive application to perform actions on behalf of users inside of applications."
+  },
+  {
+    "name": "EXECUTE_APP_FUNCTIONS",
+    "description": "Allows an application to perform actions on behalf of users inside of applications."
+  },
+  {
+    "name": "EXPAND_STATUS_BAR",
+    "description": "Allows an application to expand or collapse the status bar."
+  },
+  {
+    "name": "FACTORY_TEST",
+    "description": "Run as a manufacturer test application, running as the root user."
+  },
+  {
+    "name": "FOREGROUND_SERVICE",
+    "description": "Allows a regular application to use <code>Service.startForeground</code>."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_CAMERA",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"camera\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"connectedDevice\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_DATA_SYNC",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"dataSync\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_HEALTH",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"health\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_LOCATION",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"location\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"mediaPlayback\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_MEDIA_PROCESSING",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"mediaProcessing\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_MEDIA_PROJECTION",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"mediaProjection\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_MICROPHONE",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"microphone\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_PHONE_CALL",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"phoneCall\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_REMOTE_MESSAGING",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"remoteMessaging\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_SPECIAL_USE",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"specialUse\"."
+  },
+  {
+    "name": "FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+    "description": "Allows a regular application to use <code>Service.startForeground</code> with the type \"systemExempted\"."
+  },
+  {
+    "name": "GET_ACCOUNTS",
+    "description": "Allows access to the list of accounts in the Accounts Service."
+  },
+  {
+    "name": "GET_ACCOUNTS_PRIVILEGED",
+    "description": "Allows access to the list of accounts in the Accounts Service."
+  },
+  {
+    "name": "GET_PACKAGE_SIZE",
+    "description": "Allows an application to find out the space used by any package."
+  },
+  {
+    "name": "GET_TASKS",
+    "description": "<em>This constant was deprecated in API level 21. No longer enforced.</em>"
+  },
+  {
+    "name": "GLOBAL_SEARCH",
+    "description": "This permission can be used on content providers to allow the global search system to access their data."
+  },
+  {
+    "name": "HIDE_OVERLAY_WINDOWS",
+    "description": "Allows an app to prevent non-system-overlay windows from being drawn on top of it"
+  },
+  {
+    "name": "HIGH_SAMPLING_RATE_SENSORS",
+    "description": "Allows an app to access sensor data with a sampling rate greater than 200 Hz."
+  },
+  {
+    "name": "INSTALL_LOCATION_PROVIDER",
+    "description": "Allows an application to install a location provider into the Location Manager."
+  },
+  {
+    "name": "INSTALL_PACKAGES",
+    "description": "Allows an application to install packages."
+  },
+  {
+    "name": "INSTALL_PACKAGES_AS_REGISTERED_APP_STORE",
+    "description": "Permission to allow installing and updating apps as a registered app store."
+  },
+  {
+    "name": "INSTALL_SHORTCUT",
+    "description": "Allows an application to install a shortcut in Launcher."
+  },
+  {
+    "name": "INSTANT_APP_FOREGROUND_SERVICE",
+    "description": "Allows an instant app to create foreground services."
+  },
+  {
+    "name": "INTERACT_ACROSS_PROFILES",
+    "description": "Allows interaction across profiles in the same profile group."
+  },
+  {
+    "name": "INTERNET",
+    "description": "Allows applications to open network sockets."
+  },
+  {
+    "name": "KILL_BACKGROUND_PROCESSES",
+    "description": "Allows an application to call <code>ActivityManager.killBackgroundProcesses(String)</code>."
+  },
+  {
+    "name": "LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE",
+    "description": "Allows an application to capture screen content to perform a screenshot using the intent action <code>Intent.ACTION_LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE</code>."
+  },
+  {
+    "name": "LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK",
+    "description": "An application needs this permission for <code>Settings.ACTION_SETTINGS_EMBED_DEEP_LINK_ACTIVITY</code> to show its <code>Activity</code> embedded in Settings app."
+  },
+  {
+    "name": "LOADER_USAGE_STATS",
+    "description": "Allows a data loader to read a package's access logs."
+  },
+  {
+    "name": "LOCATION_HARDWARE",
+    "description": "Allows an application to use location features in hardware, such as the geofencing api."
+  },
+  {
+    "name": "LOCK_APPS",
+    "description": "Permission granted to apps holding the <code>RoleManager.ROLE_HOME</code> role that allows them to enable app lock."
+  },
+  {
+    "name": "MANAGE_ASSISTANT_AUDIO",
+    "description": "Allows control of audio behavior related to Assistant experiences, including routing, mode change and volume control of the Assistant audio stream."
+  },
+  {
+    "name": "MANAGE_CONTACTS",
+    "description": "Allows an application to manage user's contacts."
+  },
+  {
+    "name": "MANAGE_DEVICE_LOCK_STATE",
+    "description": "Allows financed device kiosk apps to perform actions on the Device Lock service"
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ACCESSIBILITY",
+    "description": "Allows an application to manage policy related to accessibility."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT",
+    "description": "Allows an application to set policy related to account management."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ACROSS_USERS",
+    "description": "Allows an application to set device policies outside the current user that are required for securing device ownership without accessing user data."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL",
+    "description": "Allows an application to set device policies outside the current user."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL",
+    "description": "Allows an application to set device policies outside the current user that are critical for securing data within the current user."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_AIRPLANE_MODE",
+    "description": "Allows an application to set policy related to airplane mode."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_APPS_CONTROL",
+    "description": "Allows an application to manage policy regarding modifying applications."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_APP_FUNCTIONS",
+    "description": "Allows an application to manage policy related to AppFunctions."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_APP_RESTRICTIONS",
+    "description": "Allows an application to manage application restrictions."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_APP_USER_DATA",
+    "description": "Allows an application to manage policy related to application user data."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ASSIST_CONTENT",
+    "description": "Allows an application to set policy related to sending assist content to a privileged app such as the Assistant app."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_AUDIO_OUTPUT",
+    "description": "Allows an application to set policy related to audio output."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_AUTOFILL",
+    "description": "Allows an application to set policy related to autofill."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_BACKUP_SERVICE",
+    "description": "Allows an application to manage backup service policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL",
+    "description": "Allows an application to manage policy related to block package uninstallation."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_BLUETOOTH",
+    "description": "Allows an application to set policy related to bluetooth."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_BUGREPORT",
+    "description": "Allows an application to request bugreports with user consent."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_CALLS",
+    "description": "Allows an application to manage calling policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_CAMERA",
+    "description": "Allows an application to set policy related to restricting a user's ability to use or enable and disable the camera."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_CAMERA_TOGGLE",
+    "description": "Allows an application to manage policy related to camera toggle."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_CERTIFICATES",
+    "description": "Allows an application to set policy related to certificates."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE",
+    "description": "Allows an application to manage policy related to common criteria mode."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_CONTENT_PROTECTION",
+    "description": "Allows an application to manage policy related to content protection."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES",
+    "description": "Allows an application to manage debugging features policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_DEFAULT_SMS",
+    "description": "Allows an application to set policy related to the default sms application."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS",
+    "description": "Allows an application to manage policy related to device identifiers."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_DISPLAY",
+    "description": "Allows an application to set policy related to the display."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_FACTORY_RESET",
+    "description": "Allows an application to set policy related to factory reset."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_FUN",
+    "description": "Allows an application to set policy related to fun."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_INPUT_METHODS",
+    "description": "Allows an application to set policy related to input methods."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES",
+    "description": "Allows an application to manage installing from unknown sources policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES",
+    "description": "Allows an application to set policy related to keeping uninstalled packages."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_KEYGUARD",
+    "description": "Allows an application to manage policy related to keyguard features."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_LOCALE",
+    "description": "Allows an application to set policy related to locale."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_LOCATION",
+    "description": "Allows an application to set policy related to location."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_LOCK",
+    "description": "Allows an application to lock a profile or the device with the appropriate cross-user permission."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",
+    "description": "Allows an application to set policy related to lock credentials."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_LOCK_TASK",
+    "description": "Allows an application to manage lock task policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS",
+    "description": "Allows an application to set policy related to subscriptions downloaded by an admin."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_METERED_DATA",
+    "description": "Allows an application to manage policy related to metered data."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_MICROPHONE",
+    "description": "Allows an application to set policy related to restricting a user's ability to use or enable and disable the microphone."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE",
+    "description": "Allows an application to manage policy related to microphone toggle."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_MOBILE_NETWORK",
+    "description": "Allows an application to set policy related to mobile networks."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_MODIFY_USERS",
+    "description": "Allows an application to manage policy preventing users from modifying users."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_MTE",
+    "description": "Allows an application to manage policy related to the Memory Tagging Extension (MTE)."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION",
+    "description": "Allows an application to set policy related to nearby communications (e.g. Beam and nearby streaming)."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_NETWORK_LOGGING",
+    "description": "Allows an application to set policy related to network logging."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY",
+    "description": "Allows an application to manage the identity of the managing organization."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_OVERRIDE_APN",
+    "description": "Allows an application to set policy related to override APNs."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PACKAGE_STATE",
+    "description": "Allows an application to set policy related to hiding and suspending packages."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA",
+    "description": "Allows an application to set policy related to physical media."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PRINTING",
+    "description": "Allows an application to set policy related to printing."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PRIVATE_DNS",
+    "description": "Allows an application to set policy related to private DNS."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PROFILES",
+    "description": "Allows an application to set policy related to profiles."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PROFILE_INTERACTION",
+    "description": "Allows an application to set policy related to interacting with profiles (e.g. Disallowing cross-profile copy and paste)."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_PROXY",
+    "description": "Allows an application to set a network-independent global HTTP proxy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES",
+    "description": "Allows an application query system updates."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_RESET_PASSWORD",
+    "description": "Allows an application to force set a new device unlock password or a managed profile challenge on current user."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS",
+    "description": "Allows an application to set policy related to restricting the user from configuring private DNS."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS",
+    "description": "Allows an application to set the grant state of runtime permissions on packages."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND",
+    "description": "Allows an application to set policy related to users running in the background."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SAFE_BOOT",
+    "description": "Allows an application to manage safe boot policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SCREEN_CAPTURE",
+    "description": "Allows an application to set policy related to screen capture."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SCREEN_CONTENT",
+    "description": "Allows an application to set policy related to the usage of the contents of the screen."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SECURITY_LOGGING",
+    "description": "Allows an application to set policy related to security logging."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SETTINGS",
+    "description": "Allows an application to set policy related to settings."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SMS",
+    "description": "Allows an application to set policy related to sms."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_STATUS_BAR",
+    "description": "Allows an application to set policy related to the status bar."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE",
+    "description": "Allows an application to set support messages for when a user action is affected by an active policy."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS",
+    "description": "Allows an application to set policy related to suspending personal apps."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SYSTEM_APPS",
+    "description": "Allows an application to manage policy related to system apps."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS",
+    "description": "Allows an application to set policy related to system dialogs."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_SYSTEM_UPDATES",
+    "description": "Allows an application to set policy related to system updates."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_THREAD_NETWORK",
+    "description": "Allows an application to set policy related to <a href=\"https://www.threadgroup.org/\">Thread</a> network."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_TIME",
+    "description": "Allows an application to manage device policy relating to time."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_UNIVERSAL_CLIPBOARD",
+    "description": "Allows an application to manage policy related to Universal Clipboard feature."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING",
+    "description": "Allows an application to set policy related to usb data signalling."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER",
+    "description": "Allows an application to set policy related to usb file transfers."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_USERS",
+    "description": "Allows an application to set policy related to users."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_VPN",
+    "description": "Allows an application to set policy related to VPNs."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_WALLPAPER",
+    "description": "Allows an application to set policy related to the wallpaper."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_WIFI",
+    "description": "Allows an application to set policy related to Wifi."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_WINDOWS",
+    "description": "Allows an application to set policy related to windows."
+  },
+  {
+    "name": "MANAGE_DEVICE_POLICY_WIPE_DATA",
+    "description": "Allows an application to manage policy related to wiping data."
+  },
+  {
+    "name": "MANAGE_DOCUMENTS",
+    "description": "Allows an application to manage access to documents, usually as part of a document picker."
+  },
+  {
+    "name": "MANAGE_EXTERNAL_STORAGE",
+    "description": "Allows an application a broad access to external storage in scoped storage."
+  },
+  {
+    "name": "MANAGE_MEDIA",
+    "description": "Allows an application to modify and delete media files on this device or any connected storage device without user confirmation."
+  },
+  {
+    "name": "MANAGE_ONGOING_CALLS",
+    "description": "Allows to query ongoing call details and manage ongoing calls"
+  },
+  {
+    "name": "MANAGE_OWN_CALLS",
+    "description": "Allows a calling application which manages its own calls through the self-managed <code>ConnectionService</code> APIs."
+  },
+  {
+    "name": "MANAGE_PERIPHERAL_CUSTOMIZATION",
+    "description": "Allows an application to manage peripheral customization."
+  },
+  {
+    "name": "MANAGE_WIFI_INTERFACES",
+    "description": "Allows applications to get notified when a Wi-Fi interface request cannot be satisfied without tearing down one or more other interfaces, and provide a decision whether to approve the request or reject it."
+  },
+  {
+    "name": "MANAGE_WIFI_NETWORK_SELECTION",
+    "description": "This permission is used to let OEMs grant their trusted app access to a subset of privileged wifi APIs to improve wifi performance."
+  },
+  {
+    "name": "MASTER_CLEAR",
+    "description": "Not for use by third-party applications."
+  },
+  {
+    "name": "MEDIA_CONTENT_CONTROL",
+    "description": "Allows an application to know what content is playing and control its playback."
+  },
+  {
+    "name": "MEDIA_ROUTING_CONTROL",
+    "description": "Allows an application to control the routing of media apps."
+  },
+  {
+    "name": "MODIFY_AUDIO_SETTINGS",
+    "description": "Allows an application to modify global audio settings."
+  },
+  {
+    "name": "MODIFY_PHONE_STATE",
+    "description": "Allows modification of the telephony state - power on, mmi, etc."
+  },
+  {
+    "name": "MOUNT_FORMAT_FILESYSTEMS",
+    "description": "Allows formatting file systems for removable storage."
+  },
+  {
+    "name": "MOUNT_UNMOUNT_FILESYSTEMS",
+    "description": "Allows mounting and unmounting file systems for removable storage."
+  },
+  {
+    "name": "NEARBY_WIFI_DEVICES",
+    "description": "Required to be able to advertise and connect to nearby devices via Wi-Fi."
+  },
+  {
+    "name": "NFC",
+    "description": "Allows applications to perform I/O operations over NFC."
+  },
+  {
+    "name": "NFC_PREFERRED_PAYMENT_INFO",
+    "description": "Allows applications to receive NFC preferred payment service information."
+  },
+  {
+    "name": "NFC_TRANSACTION_EVENT",
+    "description": "Allows applications to receive NFC transaction events."
+  },
+  {
+    "name": "OVERRIDE_MEDIA_SESSION_OWNER",
+    "description": "Allows an application to override the owner of a MediaSession."
+  },
+  {
+    "name": "OVERRIDE_WIFI_CONFIG",
+    "description": "Allows an application to modify any wifi configuration, even if created by another application."
+  },
+  {
+    "name": "PACKAGE_USAGE_STATS",
+    "description": "Allows an application to collect component usage statistics"
+  },
+  {
+    "name": "PERSISTENT_ACTIVITY",
+    "description": "<em>This constant was deprecated in API level 15. This functionality will be removed in the future; please do not use. Allow an application to make its activities persistent.</em>"
+  },
+  {
+    "name": "POST_NOTIFICATIONS",
+    "description": "Allows an app to post notifications"
+  },
+  {
+    "name": "POST_PROMOTED_NOTIFICATIONS",
+    "description": "Required for apps to post promoted notifications."
+  },
+  {
+    "name": "PROCESS_OUTGOING_CALLS",
+    "description": "<em>This constant was deprecated in API level 29. Applications should use <code>CallRedirectionService</code> instead of the <code>Intent.ACTION_NEW_OUTGOING_CALL</code> broadcast.</em>"
+  },
+  {
+    "name": "PROVIDE_OWN_AUTOFILL_SUGGESTIONS",
+    "description": "Allows an application to display its suggestions using the autofill framework."
+  },
+  {
+    "name": "PROVIDE_PRIVATE_COMPUTE_SERVICES",
+    "description": "Allows an application to act as Private Compute Services, which allows the application to communicate with Private Compute Core components."
+  },
+  {
+    "name": "PROVIDE_REMOTE_CREDENTIALS",
+    "description": "Allows an application to be able to store and retrieve credentials from a remote device."
+  },
+  {
+    "name": "QUERY_ADVANCED_PROTECTION_MODE",
+    "description": "Allows an application to query the device's advanced protection mode status."
+  },
+  {
+    "name": "QUERY_ALL_PACKAGES",
+    "description": "Allows query of any normal app on the device, regardless of manifest declarations."
+  },
+  {
+    "name": "QUERY_APP_USAGE",
+    "description": "Allows the holder to query app usage stats."
+  },
+  {
+    "name": "RANGING",
+    "description": "Required to be able to range to devices using generic ranging module."
+  },
+  {
+    "name": "READ_ASSISTANT_APP_SEARCH_DATA",
+    "description": "Allows an application to query over global data in AppSearch that's visible to the ASSISTANT role."
+  },
+  {
+    "name": "READ_ASSIST_STRUCTURE_SCREEN_CONTENT",
+    "description": "Allows an assistant application to read screen content in the AssistStructure."
+  },
+  {
+    "name": "READ_BASIC_PHONE_STATE",
+    "description": "Allows read only access to phone state with a non dangerous permission, including the information like cellular network type, software version."
+  },
+  {
+    "name": "READ_CALENDAR",
+    "description": "Allows an application to read the user's calendar data."
+  },
+  {
+    "name": "READ_CALL_LOG",
+    "description": "Allows an application to read the user's call log."
+  },
+  {
+    "name": "READ_COLOR_ZONES",
+    "description": "Allows an application to read the aggregated color zones on the screen for use cases like TV ambient backlight usages."
+  },
+  {
+    "name": "READ_CONTACTS",
+    "description": "Allows an application to read the user's contacts data."
+  },
+  {
+    "name": "READ_DROPBOX_DATA",
+    "description": "Allows an application to access the data in Dropbox."
+  },
+  {
+    "name": "READ_EXTERNAL_STORAGE",
+    "description": "Allows an application to read from external storage."
+  },
+  {
+    "name": "READ_HOME_APP_SEARCH_DATA",
+    "description": "Allows an application to query over global data in AppSearch that's visible to the HOME role."
+  },
+  {
+    "name": "READ_HOME_TIME_ZONE",
+    "description": "Allows applications to read the home time zone."
+  },
+  {
+    "name": "READ_INPUT_STATE",
+    "description": "<em>This constant was deprecated in API level 16. The API that used this permission has been removed.</em>"
+  },
+  {
+    "name": "READ_LOGS",
+    "description": "Allows an application to read the low-level system log files."
+  },
+  {
+    "name": "READ_MEDIA_AUDIO",
+    "description": "Allows an application to read audio files from external storage."
+  },
+  {
+    "name": "READ_MEDIA_IMAGES",
+    "description": "Allows an application to read image files from external storage."
+  },
+  {
+    "name": "READ_MEDIA_VIDEO",
+    "description": "Allows an application to read video files from external storage."
+  },
+  {
+    "name": "READ_MEDIA_VISUAL_USER_SELECTED",
+    "description": "Allows an application to read image or video files from external storage that a user has selected via the permission prompt photo picker."
+  },
+  {
+    "name": "READ_NEARBY_STREAMING_POLICY",
+    "description": "Allows an application to read nearby streaming policy."
+  },
+  {
+    "name": "READ_PHONE_NUMBERS",
+    "description": "Allows read access to the device's phone number(s), which is exposed to instant applications."
+  },
+  {
+    "name": "READ_PHONE_STATE",
+    "description": "Allows read only access to phone state, including the current cellular network information, the status of any ongoing calls, and a list of any <code>PhoneAccount</code> s registered on the device."
+  },
+  {
+    "name": "READ_PRECISE_PHONE_STATE",
+    "description": "Allows read only access to precise phone state."
+  },
+  {
+    "name": "READ_SMS",
+    "description": "Allows an application to read SMS messages."
+  },
+  {
+    "name": "READ_SYNC_SETTINGS",
+    "description": "Allows applications to read the sync settings."
+  },
+  {
+    "name": "READ_SYNC_STATS",
+    "description": "Allows applications to read the sync stats."
+  },
+  {
+    "name": "READ_SYSTEM_PREFERENCES",
+    "description": "Allows an application to access the Settings Preference services to read settings exposed by the system Settings app and system apps that contribute settings surfaced by the Settings app."
+  },
+  {
+    "name": "READ_VOICEMAIL",
+    "description": "Allows an application to read voicemails in the system."
+  },
+  {
+    "name": "REBOOT",
+    "description": "Required to be able to reboot the device."
+  },
+  {
+    "name": "RECEIVE_BOOT_COMPLETED",
+    "description": "Allows an application to receive the <code>Intent.ACTION_BOOT_COMPLETED</code> that is broadcast after the system finishes booting."
+  },
+  {
+    "name": "RECEIVE_MMS",
+    "description": "Allows an application to monitor incoming MMS messages."
+  },
+  {
+    "name": "RECEIVE_SENSITIVE_NOTIFICATIONS",
+    "description": "Allows apps with a NotificationListenerService to receive notifications with sensitive information"
+  },
+  {
+    "name": "RECEIVE_SMS",
+    "description": "Allows an application to receive SMS messages."
+  },
+  {
+    "name": "RECEIVE_WAP_PUSH",
+    "description": "Allows an application to receive WAP push messages."
+  },
+  {
+    "name": "RECORD_AUDIO",
+    "description": "Allows an application to record audio."
+  },
+  {
+    "name": "REORDER_TASKS",
+    "description": "Allows an application to change the Z-order of tasks."
+  },
+  {
+    "name": "REPOSITION_SELF_WINDOWS",
+    "description": "Allows an application to programmatically move and resize its tasks when the system is in a state that allows such operations, e.g. in a desktop-like environment."
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_APP_STREAMING",
+    "description": "Allows application to request to be associated with a virtual device capable of streaming Android applications (<code>AssociationRequest.DEVICE_PROFILE_APP_STREAMING</code>) by <code>CompanionDeviceManager</code>."
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION",
+    "description": "Allows application to request to be associated with a vehicle head unit capable of automotive projection (<code>AssociationRequest.DEVICE_PROFILE_AUTOMOTIVE_PROJECTION</code>) by <code>CompanionDeviceManager</code>."
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_COMPUTER",
+    "description": "Allows application to request to be associated with a computer to share functionality and/or data with other devices, such as notifications, photos and media (<code>AssociationRequest.DEVICE_PROFILE_COMPUTER</code>) by <code>CompanionDeviceManager</code>."
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_GLASSES",
+    "description": "Allows app to request to be associated with a device via <code>CompanionDeviceManager</code> as \"glasses\""
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_MEDICAL",
+    "description": "Allows application to request to associate with a <code>AssociationRequest.DEVICE_PROFILE_MEDICAL</code> device via <code>CompanionDeviceManager</code>."
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_NEARBY_DEVICE_STREAMING",
+    "description": "Allows application to request to stream content from an Android host to a nearby device (<code>AssociationRequest.DEVICE_PROFILE_NEARBY_DEVICE_STREAMING</code>) by <code>CompanionDeviceManager</code>."
+  },
+  {
+    "name": "REQUEST_COMPANION_PROFILE_WATCH",
+    "description": "Allows app to request to be associated with a device via <code>CompanionDeviceManager</code> as a \"watch\""
+  },
+  {
+    "name": "REQUEST_COMPANION_RUN_IN_BACKGROUND",
+    "description": "Allows a companion app to run in the background."
+  },
+  {
+    "name": "REQUEST_COMPANION_SELF_MANAGED",
+    "description": "Allows an application to create a \"self-managed\" association."
+  },
+  {
+    "name": "REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+    "description": "Allows a companion app to start a foreground service from the background."
+  },
+  {
+    "name": "REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",
+    "description": "Allows a companion app to use data in the background."
+  },
+  {
+    "name": "REQUEST_DELETE_PACKAGES",
+    "description": "Allows an application to request deleting packages."
+  },
+  {
+    "name": "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "description": "Permission an application must hold in order to use <code>Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</code>."
+  },
+  {
+    "name": "REQUEST_INSTALL_PACKAGES",
+    "description": "Allows an application to request installing packages."
+  },
+  {
+    "name": "REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE",
+    "description": "Allows an application to subscribe to notifications about the presence status change of their associated companion device"
+  },
+  {
+    "name": "REQUEST_OBSERVE_DEVICE_UUID_PRESENCE",
+    "description": "Allows an application to subscribe to notifications about the nearby devices' presence status change base on the UUIDs."
+  },
+  {
+    "name": "REQUEST_PASSWORD_COMPLEXITY",
+    "description": "Allows an application to request the screen lock complexity and prompt users to update the screen lock to a certain complexity level."
+  },
+  {
+    "name": "RESTART_PACKAGES",
+    "description": "<em>This constant was deprecated in API level 15. The <code>ActivityManager.restartPackage(String)</code> API is no longer supported.</em>"
+  },
+  {
+    "name": "RUN_USER_INITIATED_JOBS",
+    "description": "Allows applications to use the user-initiated jobs API."
+  },
+  {
+    "name": "SCHEDULE_EXACT_ALARM",
+    "description": "Allows applications to use exact alarm APIs."
+  },
+  {
+    "name": "SEND_RESPOND_VIA_MESSAGE",
+    "description": "Allows an application (Phone) to send a request to other applications to handle the respond-via-message action during incoming calls."
+  },
+  {
+    "name": "SEND_SMS",
+    "description": "Allows an application to send SMS messages."
+  },
+  {
+    "name": "SET_ALARM",
+    "description": "Allows an application to broadcast an Intent to set an alarm for the user."
+  },
+  {
+    "name": "SET_ALWAYS_FINISH",
+    "description": "Allows an application to control whether activities are immediately finished when put in the background."
+  },
+  {
+    "name": "SET_ANIMATION_SCALE",
+    "description": "Modify the global animation scaling factor."
+  },
+  {
+    "name": "SET_BIOMETRIC_DIALOG_ADVANCED",
+    "description": "Allows an application to set the advanced features on BiometricDialog (SystemUI), including logo, logo description, and content view with more options button."
+  },
+  {
+    "name": "SET_DEBUG_APP",
+    "description": "Configure an application for debugging."
+  },
+  {
+    "name": "SET_PREFERRED_APPLICATIONS",
+    "description": "<em>This constant was deprecated in API level 15. No longer useful, see <code>PackageManager.addPackageToPreferred(String)</code> for details.</em>"
+  },
+  {
+    "name": "SET_PROCESS_LIMIT",
+    "description": "Allows an application to set the maximum number of (not needed) application processes that can be running."
+  },
+  {
+    "name": "SET_TIME",
+    "description": "Allows applications to set the system time directly."
+  },
+  {
+    "name": "SET_TIME_ZONE",
+    "description": "Allows applications to set the system time zone directly."
+  },
+  {
+    "name": "SET_WALLPAPER",
+    "description": "Allows applications to set the wallpaper."
+  },
+  {
+    "name": "SET_WALLPAPER_HINTS",
+    "description": "Allows applications to set the wallpaper hints."
+  },
+  {
+    "name": "SHOW_POWER_MENU",
+    "description": "Permission needed to request to show the Power Menu."
+  },
+  {
+    "name": "SHOW_POWER_MENU_PRIVILEGED",
+    "description": "Permission needed to request to show the Power Menu."
+  },
+  {
+    "name": "SIGNAL_PERSISTENT_PROCESSES",
+    "description": "Allow an application to request that a signal be sent to all persistent processes."
+  },
+  {
+    "name": "SMS_FINANCIAL_TRANSACTIONS",
+    "description": "<em>This constant was deprecated in API level 31. The API that used this permission is no longer functional.</em>"
+  },
+  {
+    "name": "START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+    "description": "Allows an application to start foreground services from the background at any time."
+  },
+  {
+    "name": "START_VIEW_APP_FEATURES",
+    "description": "Allows the holder to start the screen with a list of app features."
+  },
+  {
+    "name": "START_VIEW_PERMISSION_USAGE",
+    "description": "Allows the holder to start the permission usage screen for an app."
+  },
+  {
+    "name": "STATUS_BAR",
+    "description": "Allows an application to open, close, or disable the status bar and its icons."
+  },
+  {
+    "name": "SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE",
+    "description": "Allows an application to subscribe to device locked and keyguard locked (i.e., showing) state."
+  },
+  {
+    "name": "SYSTEM_ALERT_WINDOW",
+    "description": "Allows an app to create windows using the type <code>WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY</code>, shown on top of all other apps."
+  },
+  {
+    "name": "TRANSMIT_IR",
+    "description": "Allows using the device's IR transmitter, if available."
+  },
+  {
+    "name": "TURN_SCREEN_ON",
+    "description": "Allows an app to turn on the screen on, e.g. with <code>PowerManager.ACQUIRE_CAUSES_WAKEUP</code>."
+  },
+  {
+    "name": "TV_IMPLICIT_ENTER_PIP",
+    "description": "Allows an app to enter Picture-in-Picture mode when the user is not explicitly requesting it."
+  },
+  {
+    "name": "UNINSTALL_SHORTCUT",
+    "description": "<strong>Don't use this permission in your app.</strong>"
+  },
+  {
+    "name": "UPDATE_DEVICE_STATS",
+    "description": "Allows an application to update device statistics."
+  },
+  {
+    "name": "UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+    "description": "Allows an application to indicate via <code>PackageInstaller.SessionParams.setRequireUserAction(int)</code> that user action should not be required for an app update."
+  },
+  {
+    "name": "USE_BIOMETRIC",
+    "description": "Allows an app to use device supported biometric modalities."
+  },
+  {
+    "name": "USE_EXACT_ALARM",
+    "description": "Allows apps to use exact alarms just like with <code>SCHEDULE_EXACT_ALARM</code> but without needing to request this permission from the user."
+  },
+  {
+    "name": "USE_FINGERPRINT",
+    "description": "<em>This constant was deprecated in API level 28. Applications should request <code>USE_BIOMETRIC</code> instead</em>"
+  },
+  {
+    "name": "USE_FULL_SCREEN_INTENT",
+    "description": "Required for apps targeting <code>Build.VERSION_CODES.Q</code> that want to use <code>notification full screen\nintents</code>."
+  },
+  {
+    "name": "USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER",
+    "description": "Allows to read device identifiers and use ICC based authentication like EAP-AKA."
+  },
+  {
+    "name": "USE_LOCATION_BUTTON",
+    "description": "Allows an app use location button, which grants temporary location permission when a user clicks the button."
+  },
+  {
+    "name": "USE_PINNED_WINDOWING_LAYER",
+    "description": "Allows an application to use <code>ActivityManager.AppTask.WINDOWING_LAYER_PINNED</code> for its Tasks, typically requested via <code>ActivityManager.AppTask.requestWindowingLayer(int, Executor, OutcomeReceiver)</code>."
+  },
+  {
+    "name": "USE_SIP",
+    "description": "Allows an application to use SIP service."
+  },
+  {
+    "name": "UWB_RANGING",
+    "description": "Required to be able to range to devices using ultra-wideband."
+  },
+  {
+    "name": "VIBRATE",
+    "description": "Allows access to the vibrator."
+  },
+  {
+    "name": "WAKE_LOCK",
+    "description": "Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming."
+  },
+  {
+    "name": "WRITE_APN_SETTINGS",
+    "description": "Allows applications to write the apn settings and read sensitive fields of an existing apn settings like user and password."
+  },
+  {
+    "name": "WRITE_CALENDAR",
+    "description": "Allows an application to write the user's calendar data."
+  },
+  {
+    "name": "WRITE_CALL_LOG",
+    "description": "Allows an application to write and read the user's call log data."
+  },
+  {
+    "name": "WRITE_CONTACTS",
+    "description": "Allows an application to write the user's contacts data."
+  },
+  {
+    "name": "WRITE_EXTERNAL_STORAGE",
+    "description": "Allows an application to write to external storage."
+  },
+  {
+    "name": "WRITE_GSERVICES",
+    "description": "Allows an application to modify the Google service map."
+  },
+  {
+    "name": "WRITE_SECURE_SETTINGS",
+    "description": "Allows an application to read or write the secure system settings."
+  },
+  {
+    "name": "WRITE_SETTINGS",
+    "description": "Allows an application to read or write the system settings."
+  },
+  {
+    "name": "WRITE_SYNC_SETTINGS",
+    "description": "Allows applications to write the sync settings."
+  },
+  {
+    "name": "WRITE_SYSTEM_PREFERENCES",
+    "description": "Allows an application to access the Settings Preference services to write settings values exposed by the system Settings app and system apps that contribute settings surfaced in the Settings app."
+  },
+  {
+    "name": "WRITE_VOICEMAIL",
+    "description": "Allows an application to modify and remove existing voicemails in the system."
+  }
+]
